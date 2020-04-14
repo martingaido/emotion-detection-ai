@@ -1,34 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Face Detection API</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     
-    <title>Face Recognition</title>
+    <video id="video" height="1080" width="1920" autoplay muted></video>
+
+    <script src="js/face-api.min.js"></script>
+    <script src="js/main.js"></script>
     
-    <script defer src="face-api.min.js"></script>
-    <script defer src="script.js"></script>
-
-    <style>
-
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        canvas {
-            position: absolute;
-        }
-    </style>
-
-</head>
-<body>
-    <video id="video" width="720" height="560" autoplay muted playsinline></video>
-</body>
+  </body>
 </html>
